@@ -1,0 +1,43 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* 🎥 Video full screen */
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+/* Optional dark overlay */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(26, 23, 23, 0.4);
+  z-index: -1;
+}
+
+/* Content */
+.hero-content {
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 60px;
+}
+
+.hero p {
+  margin-top: 10px;
+  color: #ccc;
+}

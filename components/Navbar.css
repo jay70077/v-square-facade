@@ -1,0 +1,95 @@
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 20px;
+  right: 0%;
+  transform: translateX(-50%);
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  width: 6%;
+  max-width: 900px;
+  align-items: center;
+  z-index: 100;
+}
+
+/* Hamburger */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background: white;
+  transition: 0.3s;
+}
+
+/* Animate lines */
+.line.active:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.line.active:nth-child(2) {
+  opacity: 0;
+}
+
+.line.active:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Menu Overlay */
+.menu-overlay {
+  position: fixed;
+  top: 80px;
+  right: 10%;
+  transform: translateX(-50%);
+  width: 6%;
+  max-width: 900px;
+  padding: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  z-index: 99;
+  background: none;
+  border: 0px;
+  box-shadow: none;
+}
+
+/* Links */
+.menu-overlay a {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.menu-overlay a:hover {
+  color: #00f0ff;
+}
+
+.home-btn {
+  margin-left: auto;
+  margin-right: 20px;
+  padding: 6px 14px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.1);
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.home-btn:hover {
+  background: #00f0ff;
+  color: black;
+}
+
+.navbar.glass{
+    background: none;
+    box-shadow: none;
+    border: 0px;
+}

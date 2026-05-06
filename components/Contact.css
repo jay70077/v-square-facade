@@ -1,0 +1,47 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  padding: 100px 20px;
+}
+
+/* Row layout */
+.form-row {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  width: 100%;
+  max-width: 900px;
+  align-items: center;
+}
+
+/* Inputs */
+.form-row input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background: transparent;
+  color: white;
+  outline: none;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+/* Button */
+.form-row button {
+  padding: 12px 20px;
+  background: rgba(14, 16, 14, 0.8);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-row button {
+    width: 100%;
+  }
+}

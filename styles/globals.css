@@ -1,0 +1,57 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base */
+body {
+  font-family: "Century Gothic", "Poppins", "Inter", sans-serif;
+    background: #212325;
+    color:#fff;
+     overflow-x: hidden;
+}
+
+/* Background glow blobs */
+.bg-blob {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    filter: blur(120px);
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.blob1 {
+    background: #0b0b13;
+    top: 10%;
+    left: 10%;
+}
+
+.blob2 {
+    background: rgba(219, 210, 210, 0.3);
+    bottom: 10%;
+    right: 10%;
+}
+
+/* Glass UI */
+.glass {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Glow text */
+.glow {
+    text-shadow: 0 0 20px rgba(0, 255, 255, 0.6);
+}
+
+/* Layout helpers */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
