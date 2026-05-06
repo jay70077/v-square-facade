@@ -1,0 +1,8 @@
+1:"$Sreact.fragment"
+2:I[92349,["/_next/static/chunks/0x.~j7vy9ohz0.js","/_next/static/chunks/0qcpw9.phsngw.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0o68gnuv5aslc.js"],"default"]
+3:I[90029,["/_next/static/chunks/0x.~j7vy9ohz0.js","/_next/static/chunks/0qcpw9.phsngw.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0o68gnuv5aslc.js"],"default"]
+4:I[97367,["/_next/static/chunks/0x.~j7vy9ohz0.js","/_next/static/chunks/0qcpw9.phsngw.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+:HL["/_next/static/chunks/0o4o4._8ab~~2.css","style"]
+0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","section",null,{"id":"contact","className":"contact","children":["$","div",null,{"className":"glass form-row","children":[["$","p",null,{"children":"Contact us : "}],["$","input",null,{"type":"text","placeholder":"Name"}],["$","input",null,{"type":"email","placeholder":"Email"}],["$","input",null,{"type":"tel","placeholder":"Mobile"}],["$","button",null,{"children":"Send"}]]}]}],["$","$L3",null,{}]],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0o4o4._8ab~~2.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0o68gnuv5aslc.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"stoTrDPpm-GicYG-mBNP7"}
+6:null
